@@ -1,0 +1,81 @@
+.form-student{
+    background-color: #fff;
+    width: 600px;
+    padding: 2rem 3rem;
+    border: 2px solid var(--color-primary);
+    border-radius: 10px;
+}
+
+.form__title{
+    color: var(--color-text);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.form-student > form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input-student, .input-guardian{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.form-lyric{
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+form hr{
+    background-color: var(--color-text);
+    height: 2px;
+} 
+
+.form__input{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input > label{
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    background-color: #fff;
+    color: var(--color-primary);
+    padding: 0 .4rem;
+    font-weight: 400;
+}
+
+.form__input > input{
+    background-color: #fff;
+    color: var(--color-text);
+    padding: .6rem .7rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form__input > input:focus{
+    outline: none;
+}
+
+.form__button-submit{
+    background-color: var(--color-primary);
+    color: #fff;
+    width: 100%;
+    padding: .8rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.form__button-submit:hover{
+    transform: scale(1.01);
+}
